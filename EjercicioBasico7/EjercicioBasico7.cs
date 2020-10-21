@@ -81,8 +81,8 @@ namespace EjercicioBasico7
             {
                 Console.Write("Columna: ");
                 aux = Console.ReadLine();
-                columna_alfil = aux[0] - 47;
-            } while ((columna_alfil < 1 || columna_alfil > 8) || aux.Length != 1);
+                columna_alfil = aux[0] - 49;
+            } while ((columna_alfil < 0 || columna_alfil > 8) || aux.Length != 1);
 
             incremento_letra = 0;
 
@@ -148,7 +148,6 @@ namespace EjercicioBasico7
             Console.ReadLine();
             Console.ResetColor();
             Console.Clear();
-
         }
 
     }
